@@ -130,7 +130,7 @@ def change_page(name):
 
 
 def connect():
-    # Connect only 1 device at a time
+    # Connect only 1 device at a time.
     # Restart ADB on new connection.
     os.system(
         'adb kill-server > hidden.txt 2>&1&&adb start-server > hidden.txt 2>&1')
