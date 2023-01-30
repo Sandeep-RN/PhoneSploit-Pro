@@ -20,7 +20,7 @@ The goal of this project is to make penetration testing on Android devices easy.
 
 
 # Features 
-## v1.0
+## v1.0 :
 
 * Connect device using ADB remotely.
 * List connected devices.
@@ -43,7 +43,7 @@ The goal of this project is to make penetration testing on Android devices easy.
   - Getting a `meterpreter` session means the device is completely hacked using Metasploit-Framework, and you can do anything with it.
 
 
-## v1.1
+## v1.1 :
 
 * List all files and folders of the target devices.
 * Copy all WhatsApp Data to computer.
@@ -59,7 +59,7 @@ The goal of this project is to make penetration testing on Android devices easy.
 * Use Keycodes to control device remotely.
 
 
-## v1.2
+## v1.2 :
 
 * Send SMS through target device.
 * Unlock device (Automatic screen on, swipe up and password input).
@@ -69,11 +69,11 @@ The goal of this project is to make penetration testing on Android devices easy.
 * Dump all Call Logs from device to computer.
 * Extract APK from an installed app.
 
-## v1.3
+## v1.3 :
 
 * Mirror and Control the target device. 
 
-# Requirements  
+# Requirements :
 * [`python3`](https://www.python.org/) : Python 3.10 or Newer
 * [`adb`](https://developer.android.com/studio/command-line/adb) : Android Debug Bridge (ADB) from `Android SDK Platform Tools`
 * [`metasploit-framework`](https://www.metasploit.com/) : Metasploit-Framework (`msfvenom` and `msfconsole`)
